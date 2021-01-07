@@ -4,8 +4,10 @@ def loop_message_five_times(message)
   end 
 end 
 
-def loop_message_n_times
-  
+def loop_message_n_times(message, integer)
+  integer.times do 
+    puts message 
+  end 
 end 
 
 def output_array
